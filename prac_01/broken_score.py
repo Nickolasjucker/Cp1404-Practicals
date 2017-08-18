@@ -5,7 +5,7 @@ Broken program to determine score status
 
 # TODO: Fix this!
 
-score = int(input("Enter score: "))
+score = float(input("Enter score: "))
 if score < 0:
     print("Invalid score")
 elif score > 100:

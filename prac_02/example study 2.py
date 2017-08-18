@@ -5,11 +5,12 @@ MAX_DECREASE = 0.05  # 5%
 MIN_PRICE = 1
 MAX_PRICE = 100.0
 INITIAL_PRICE = 10.0
+OUTPUT_FILE = "OUTPUT_FILE.txt"
 day = 0
 price = INITIAL_PRICE
-out_file = open("OUTPUT_FILE.txt", 'w')
+out_file = open(OUTPUT_FILE, 'w')
 out_file.write("Starting price: ${:,.2f} \n".format(price))
-while price >= MIN_PRICE and price <= MAX_PRICE and day <= MAX_PRICE:
+while price >= MIN_PRICE and price <= MAX_PRICE:
     price_change = 0
     day += 1
     # generate a random integer of 1 or 2

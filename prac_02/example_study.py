@@ -17,7 +17,7 @@ INITIAL_PRICE = 10.0
 day = 0
 price = INITIAL_PRICE
 print("Starting price: ${:,.2f}".format(price))
-while price >= MIN_PRICE and price <= MAX_PRICE and day <= MAX_PRICE:
+while price >= MIN_PRICE and price <= MAX_PRICE:
     price_change = 0
     day += 1
     # generate a random integer of 1 or 2
